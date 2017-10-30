@@ -1,1 +1,8 @@
-<p>Welcome to Hackercodus!</p>
+<h1>Welcome to Hackercodus!</h1>
+<br>
+<div *ngFor="let article of news" (click)="goToDetailPage(news)" class="panel panel-default">
+
+  <div class="panel-body">
+    <h2>{{article.category}}</h2>
+  </div>
+</div>

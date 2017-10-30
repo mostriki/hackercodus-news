@@ -6,6 +6,6 @@ export class News {
     public authorLastName: string,
     public content: string,
     public category: string,
-    public ID: number
-  ) {}
+    public id: number
+  ) { }
 }
