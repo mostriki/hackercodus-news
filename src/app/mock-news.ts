@@ -1,0 +1,7 @@
+import { News } from './news.model';
+
+export const NEWS: News[] = [
+  new News("Kenya Declares President Kenyatta Winner", "Election Fraught with Violence", "Eyder", "Peralta", "Despite about 10 percent of Kenyans not being able to cast a vote because of violence, Kenya's electoral commission has declared President Uhuru Kenyatta the winner of a re-run of the country's presidential election.", "Breaking News", 1),
+  new News("Bold Experiment Turned Broadway Hit, 'Lion King' Continues To Thrill — And Heal", 'When you think of Disney, "experimental" or "avant-garde" may not be the first words that spring to mind.', "Michel", "Martin", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", "Art", 2),
+  new News("Gwyneth Paltrow’s ‘Seven’ Halloween Costume Is Hilariously Devastating", "Spoiler warning, in case you’re unfamiliar with the contents of 'the box'", "Andy", "McDonald", "In the crime noir directed by David Fincher, Gwyneth Paltrow plays the wife of Pitt’s character, a young detective who’s tasked with hunting a serial killer. If you’ve seen the film, then you know that Paltrow plays an oddly pivotal role.", "entertainment", 3)
+];
